@@ -1,18 +1,33 @@
 interface FAQProps {
   question: string;
-  answer: string;
+  answer: string | JSX.Element;
   value: string;
 }
 
 const FAQList: FAQProps[] = [
   {
-    question: 'What support does FleetSync offer',
+    question: 'What support does FleetSync offer?',
     answer: 'We help with scheduling and compliance, giving you the freedom to choose your best routes.',
     value: 'item-1',
   },
   {
     question: 'How do I start with FleetSync?',
-    answer: "Contact us by web chat, phone or email, and we'll guide you through a simple setup.",
+    answer: (
+      <>
+        <a className="underline" href="#contact">
+          Schedule
+        </a>{' '}
+        a call or contact us by{' '}
+        <a className="underline" href="tel:+12526234320">
+          phone
+        </a>{' '}
+        or{' '}
+        <a className="underline" href="mailto:hello@fleetsync.online">
+          email
+        </a>
+        , and we'll guide you through a simple setup.
+      </>
+    ),
     value: 'item-2',
   },
   {
@@ -22,7 +37,7 @@ const FAQList: FAQProps[] = [
   },
   {
     question: 'Why choose FleetSync?',
-    answer: 'For our direct, personalized support that respects your experience and choices on the road.',
+    answer: 'For our direct, personalized support that respects your experience and choices on the road!',
     value: 'item-4',
   },
 ];
@@ -59,7 +74,7 @@ export const FAQ = () => {
         <span className="text-muted-foreground"> Still have questions? </span>
         <a
           rel="noreferrer noopener"
-          href="#earlyAccess"
+          href="#contact"
           className="text-primary transition-all border-primary hover:border-b-2"
         >
           Contact us
