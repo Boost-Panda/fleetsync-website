@@ -22,8 +22,11 @@ export const EarlyAccess = () => {
               className="bg-cover bg-center h-96 w-full max-w-[1000px] rounded-3xl"
             />
           </div>
-          <p className="text-xl text-muted-foreground mx-auto lg:mx-0 text-center font-bold">
-            Your Partner in Road-Ready Truck Dispatching.
+          <p className="text-2xl text-muted-foreground mx-auto text-center font-bold">Simple and Effective</p>
+          <p className="text-xl mx-auto text-center max-w-[800px]">
+            Our approach is straightforward and hands-on. We focus on providing you with reliable dispatch services that
+            help reduce overhead costs and increase your profitability. No complex software—just genuine, effective
+            support tailored to your needs.
           </p>
         </div>
         <div className="bg-slate-50">
