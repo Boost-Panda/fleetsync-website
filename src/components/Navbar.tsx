@@ -11,10 +11,8 @@ import { Button, buttonVariants } from './ui/button';
 import { Menu } from 'lucide-react';
 import { ModeToggle } from './mode-toggle';
 import { useState } from 'react';
-import { useTheme } from './theme-provider';
 
-import LogoLight from '@/assets/fleetsync-logo.svg';
-import LogoDark from '@/assets/fleetsync-logo.svg';
+import Logo from '@/assets/fleetsync-logo.svg';
 import React from 'react';
 import { cn } from '@/lib/utils';
 
@@ -40,7 +38,6 @@ const routeList: RouteProps[] = [
 
 export const Navbar = () => {
   const [isOpen, setIsOpen] = useState<boolean>(false);
-  const { theme } = useTheme();
 
   return (
     <header className="sticky border-b-[1px] top-0 z-40 w-full bg-white dark:border-b-slate-700 dark:bg-background">
@@ -48,17 +45,7 @@ export const Navbar = () => {
         <NavigationMenuList className="container h-14 px-4 w-screen flex justify-between ">
           <NavigationMenuItem className="font-bold flex">
             <a rel="noreferrer noopener" href="/" className="ml-2 font-bold text-xl flex">
-              {theme === 'dark' ? (
-                <img src={LogoDark} alt="FleetSync Logo" className="h-8 w-8 mr-2" />
-              ) : theme === 'system' ? (
-                <img
-                  src={window.matchMedia('(prefers-color-scheme: dark)').matches ? LogoDark : LogoLight}
-                  alt="FleetSync Logo"
-                  className="h-8 w-8 mr-2"
-                />
-              ) : (
-                <img src={LogoLight} alt="FleetSync Logo" className="h-8 w-8 mr-2" />
-              )}
+              <img src={Logo} alt="FleetSync Logo" className="h-8 w-8 mr-2" />
               <span>FleetSync</span>
             </a>
           </NavigationMenuItem>
