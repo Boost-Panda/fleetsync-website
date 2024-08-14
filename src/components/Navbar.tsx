@@ -9,7 +9,6 @@ import { Sheet, SheetContent, SheetHeader, SheetTitle, SheetTrigger } from '@/co
 
 import { Button, buttonVariants } from './ui/button';
 import { Menu } from 'lucide-react';
-import { ModeToggle } from './mode-toggle';
 import { useState } from 'react';
 
 import Logo from '@/assets/fleetsync-logo.svg';
@@ -52,8 +51,6 @@ export const Navbar = () => {
 
           {/* mobile */}
           <span className="flex md:hidden">
-            <ModeToggle />
-
             <Sheet open={isOpen} onOpenChange={setIsOpen}>
               <SheetTrigger className="px-2">
                 <Menu className="flex md:hidden h-5 w-5" onClick={() => setIsOpen(true)}>
