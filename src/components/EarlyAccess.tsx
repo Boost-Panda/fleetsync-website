@@ -23,7 +23,7 @@ export const EarlyAccess = () => {
             />
           </div>
           <p className="text-2xl text-muted-foreground mx-auto text-center font-bold">Simple and Effective</p>
-          <p className="text-xl mx-auto text-center max-w-[800px]">
+          <p className="text-xl mx-auto text-left md:text-center max-w-[800px] px-8">
             Our approach is straightforward and hands-on. We focus on providing you with reliable dispatch services that
             help reduce overhead costs and increase your profitability. No complex software—just genuine, effective
             support tailored to your needs.

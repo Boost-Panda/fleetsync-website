@@ -19,7 +19,7 @@ const CalendlyWidget = () => {
       <iframe
         src="https://calendar.google.com/calendar/appointments/schedules/AcZssZ1hqz3ENA9mbtIsGoWYa9H3jIH--8E4ie9-SUk10ehEh8vNKv7pbs7kRhhJijH6EdjLSVIoNa8B?gv=true"
         style={{ border: '0' }}
-        className="w-full h-[75rem]"
+        className="w-full h-[95rem] md:h-[75rem]"
       ></iframe>
     </div>
   );
