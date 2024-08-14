@@ -1,19 +1,14 @@
 {
-  "name": "boostpanda-website",
-  "description": "Set Projects in Motion with BoostPanda",
+  "name": "fleetsync-website",
+  "description": "Your Partner in Road-Ready Truck Dispatching.",
   "author": {
-    "name": "BoostPanda Team",
-    "email": "hello@boostpanda.ai"
+    "name": "FleetSync Team",
+    "email": "hello@fleetsync.online"
   },
   "keywords": [
-    "boostpanda",
-    "boostpanda-website",
-    "ai",
-    "artificial intelligence",
-    "chatbot",
-    "ci/cd",
-    "custom full stack development",
-    "ai applications"
+    "fleetsync",
+    "fleetsync-website",
+    "truck-dispatching"
   ],
   "private": true,
   "version": "0.1.1",

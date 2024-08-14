@@ -33,7 +33,7 @@ export const EarlyAccess = () => {
               Experience the FleetSync difference. Get in touch now to start optimizing your trucking operations.
             </p>
             <p className="text-center block text-muted-foreground underline">
-              <a href="mailto:hello@boostpanda.ai">hello@fleetsync.online</a>
+              <a href="mailto:hello@fleetsync.online">hello@fleetsync.online</a>
             </p>
           </div>
           <CalendlyWidget />
