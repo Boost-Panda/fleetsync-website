@@ -38,6 +38,9 @@ export const EarlyAccess = () => {
             <p className="text-center block text-muted-foreground underline">
               <a href="mailto:hello@fleetsync.online">hello@fleetsync.online</a>
             </p>
+            <p className="text-center block text-muted-foreground underline mt-4">
+              <a href="tel:+12526234320">(252) 623-4320</a>
+            </p>
           </div>
           <CalendlyWidget />
         </div>

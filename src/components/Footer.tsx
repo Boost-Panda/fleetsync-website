@@ -47,9 +47,9 @@ export const Footer = () => {
         </div>
       </section>
 
-      <section className="container pb-14 text-center">
+      <section className="container pb-14 text-center space-y-8">
         <h3>&copy; FleetSync LLC 2024 </h3>
-        <span className="opacity-80">30 N Gould St, STE R, Sheridan, Wyoming 82801, USA</span>
+        <span className="opacity-80 text-sm">30 N Gould St, STE R, Sheridan, Wyoming 82801, USA</span>
       </section>
     </footer>
   );
