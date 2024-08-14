@@ -20,7 +20,7 @@ const features: FeatureProps[] = [
   {
     id: 'route-planning',
     title: 'Route Planning',
-    description: 'We help you to find the best routes, helping you save time and avoid delays.',
+    description: 'We help you to find the best routes, so you save time and avoid delays.',
     image: RoutePlanningImage,
   },
   {
