@@ -15,10 +15,10 @@ export const Hero = () => {
               backgroundSize: 'cover',
               backgroundPosition: 'center',
             }}
-            className="bg-cover bg-center h-96 w-full max-w-[700px] rounded-3xl"
+            className="bg-cover bg-center h-[30rem] w-full max-w-[800px] rounded-3xl"
           />
         </div>
-        <p className="text-xl text-muted-foreground mx-auto lg:mx-0 text-center font-bold">
+        <p className="text-2xl text-muted-foreground mx-auto lg:mx-0 text-center font-bold">
           Your Partner in Road-Ready Truck Dispatching.
         </p>
         <div className="gap-4 pb-4 flex flex-col justify-center w-full content-center flex-wrap">
