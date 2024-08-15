@@ -2,9 +2,9 @@ export const PrivacyContent = () => {
   return (
     <div className="bg-slate-50">
       <section id="services" className="container py-10 space-y-4 max-w-[1000px] pb-32">
-        <h2 className="text-3xl">FleetSync LLC Privacy Policy</h2>
+        <h2 className="text-3xl">Fleet Sync LLC Privacy Policy</h2>
         <p>
-          Your privacy is important to us. It is FleetSync LLC's policy to respect your privacy and comply with any
+          Your privacy is important to us. It is Fleet Sync LLC's policy to respect your privacy and comply with any
           applicable law and regulation regarding any personal information we may collect about you, including across
           our website, <a href="https://fleetsync.online">https://fleetsync.online</a>, and other sites we own and
           operate.
@@ -376,7 +376,7 @@ export const PrivacyContent = () => {
         <h3 className="text-2xl">Contact Us</h3>
         <p>For any questions or concerns regarding your privacy, you may contact us using the following details:</p>
         <p>
-          FleetSync LLC
+          Fleet Sync LLC
           <br />
           hello@fleetsync.online
         </p>
